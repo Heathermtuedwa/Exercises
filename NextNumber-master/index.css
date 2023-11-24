@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: hotpink;
+}
+
+#number-container {
+  text-align: center;
+  padding: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+#display-number {
+  font-size: 24px;
+}
+
+#next-button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
